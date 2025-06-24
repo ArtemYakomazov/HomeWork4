@@ -3,10 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 //Задача 1
-int age1 = 14;
+int age1 = 19;
 if (age1 >= 18) {
     System.out.println("Если возраст человека равен " + age1 + ", то он совершеннолетний");
-} if (age1 < 18) {
+} else {
     System.out.println("Если возраст человека равен " + age1 + ", то он не достиг совершеннолетия, нужно немного подождать");
 }
 //Задача 2
